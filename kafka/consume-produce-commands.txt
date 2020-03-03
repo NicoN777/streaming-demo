@@ -1,0 +1,2 @@
+kafka-console-producer --broker-list localhost:9092 --topic orders --property parse.key=true --property key.separator=,
+kafka-console-consumer --bootstrap-server localhost:9092 --topic orders --from-beginning --property print.key=true --property key.separator=,
