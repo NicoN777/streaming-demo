@@ -1,0 +1,14 @@
+#General
+*.class
+*.cache
+
+#IntelliJ IDE
+.idea/
+*.log
+*.iml
+*.ipr
+*.iws
+
+#Scala
+**/target/**
+**/project/**
